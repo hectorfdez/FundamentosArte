@@ -1,0 +1,161 @@
+/* Reset de estilos para eliminar márgenes y paddings por defecto */
+body, h1, h2, h3, h4, h5, h6, ul, ol, li, p, figure, blockquote, dl, dd {
+    margin: 0 ;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: dodgerblue;
+    color: #333;
+    min-height: 100vh !important;
+  }
+  
+  
+  /* Encabezados */
+  h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .enlaceFooter{
+    color: #f8f9fa !important;
+  }
+  .imagenInicio{
+    display: flex;
+    width: 3000px;
+    padding-left: 0px;
+  }
+  .mb-4 {
+    margin-left: 1cm;
+    margin-right: 1cm;
+}
+.descripcion{
+  margin-left: 0ch !important;
+  margin-right: 0ch;
+  margin-top: 0ch;
+  margin-bottom: 0ch;
+}
+
+.curriculum{
+  display: flex;
+  width: 3000px;
+}
+.imagenes{
+  width: 50px;
+}
+  /* Enlaces */
+  a {
+    color: #337ab7;
+    text-decoration: none !important; 
+    ;
+  }
+  .container-fluid{
+    background-color: #337ab7
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Barra de navegación */
+  .navbar {
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #fff;
+    margin-right: 15px;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ccc;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #337ab7 !important;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  .temario {
+    text-align: center;
+}
+.temario h1,
+.temario h2,
+.temario p {
+    margin: 0; /* Elimina los márgenes predeterminados para centrar mejor */
+}
+
+.temario p {
+    margin-bottom: 10px; /* Ajusta el espacio entre párrafos si es necesario */
+}
+  /* Estilos para secciones */
+  section {
+    padding: 20px 0;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Estilos para imágenes */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+/* Estilos CSS para la barra de navegación */
+
+/* Color de fondo y estilos generales */
+.navbar {
+    background-color: #343a40; /* Cambia el color de fondo */
+  }
+  
+  .navbar-brand,
+  .navbar-nav .nav-link {
+    color: #ffffff; /* Cambia el color del texto */
+  }
+  
+  .navbar-brand:hover,
+  .navbar-nav .nav-link:hover {
+    color: #f8f9fa; /* Cambia el color del texto al pasar el mouse */
+  }
+  
+  /* Estilos para el botón desplegable (navbar-toggler) */
+  .navbar-toggler {
+    border-color: #ffffff; /* Cambia el color del icono del botón */
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #ffffff; /* Cambia el color del icono del botón */
+  }
+  
+  /* Estilos para el menú desplegable */
+  .dropdown-menu {
+    background-color: #343a40; /* Cambia el color de fondo del menú desplegable */
+  }
+  
+  .dropdown-item {
+    color: #ffffff; /* Cambia el color del texto del menú desplegable */
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f8f9fa; /* Cambia el color de fondo al pasar el mouse */
+    color: #343a40; /* Cambia el color del texto al pasar el mouse */
+  }
+  
